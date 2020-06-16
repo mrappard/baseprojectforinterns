@@ -21,7 +21,7 @@ class Landingpage extends Component {
 	render() {
 		return(
 			<div className='container'>
-				<h1> Hello world!</h1>
+				<h1> Kiran Ahmed</h1>
 				<button><Link to="/secondPage">Second Page</Link></button>
 			</div>
 		);
