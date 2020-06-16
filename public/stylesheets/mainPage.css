@@ -1,0 +1,78 @@
+.input {
+    display: block;
+    font-size: 2.75rem;
+    padding: 0.5rem 1rem;
+    box-shadow: none;
+    border-color: hsla(0, 5%, 0%, 1);
+    border-width: 0 0 6px 0;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    outline:transparent;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.input + .input {
+    margin: 10px 0 0;
+}
+.input:focus {
+    border-bottom: 2px solid hsla(1, 75%, 55%, 1);
+}
+.landing-form {
+  background-color: #6db9fb;
+  border-radius: 5px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.register-container {
+  background-color: #172e42;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.register-form {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.input-username {
+   margin-top: 5rem;
+}
+.btn {
+    font-size: 2.75rem;
+    height: 5rem;
+    border: none;
+    width: 36rem;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    margin-top: 0.5rem;
+}
+.back-btn {
+    font-size: 2.75rem;
+    border: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+.button-link {
+    display: block;
+    color: inherit;
+}
+.btn-last {
+    margin-bottom: 5rem;
+}
+.errorMsg {
+    width: 36rem;
+}
