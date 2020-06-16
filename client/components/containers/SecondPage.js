@@ -16,7 +16,7 @@ class SecondPage extends Component {
 	render() {
 		return(
 			<div className='container'>
-				<h1> Hello world!</h1>
+				<h1> Kiran Ahmed </h1>
 				<button><Link to="/">Back to Landing page</Link></button>
 			</div>
 		);
